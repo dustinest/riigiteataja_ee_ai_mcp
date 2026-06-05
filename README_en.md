@@ -10,8 +10,48 @@ It runs as a stateless Cloudflare Worker (free tier, no Durable Objects), and it
 can also be self-hosted with Docker or Podman if you do not want to use
 Cloudflare.
 
+## Features
+
+Here's the full feature list of what's implemented and shipped.
+
+**Tools**
+- `search_acts`: full-text search over Estonian legal acts.
+- `get_act`: a single act's full text and metadata, XML rendered to readable plain text.
+- `get_act_metadata`: a single act's header only, for a cheap confirmation.
+
+**Search**
+- Search in the title, the body, or both (`inTitle`, `inText`).
+- Two query terms combined with `AND` or `OR`.
+- Estonian morphological search toggle (`morph`).
+- Status filter with four values: `KEHTIVAD_KEHTETUTETA` (in force, the default), `JOUSTUVAD`, `KEHTETUD`, `KOIK_OTSITAVAD`.
+- Sort by effective date, newest or oldest first (`oldestFirst`).
+- Pagination, 30 results per page, with a `hasMore` flag.
+- Status breakdown counts (in force, repealed, entering into force).
+- Matched snippets with a human-readable structural location, for example "ptk 22, § 240 lg 2 p 5".
+
+**Acts**
+- Full act text fetched live as XML and rendered to readable plain text.
+- Header-only fetch that omits the large body.
+- Missing acts return `{ found: false }` instead of an error.
+
+**Output**
+- Every tool returns both a structured JSON payload and a short text summary.
+
+**Runtime and protocol**
+- Stateless Cloudflare Worker on the free tier, with no Durable Objects.
+- Self-hostable with Docker or Podman.
+- MCP over streamable HTTP, protocol version 2025-06-18.
+- JSON-RPC single and batch requests, with CORS.
+- Response caching with a 10-minute TTL (Workers Cache API).
+- Read-only, no authentication, no user data.
+- Tool descriptions written in English and Estonian, so prompts in either language work.
+
+**Limitations**
+- Estonian text only; English translations are not available in version 1.
+
 ## Contents
 
+- [Features](#features)
 - [Tools](#tools)
   - [search_acts](#search_acts)
   - [get_act](#get_act)

@@ -13,8 +13,48 @@ kui sa ei taha Cloudflare'i kasutada.
 _**NB!** kogu see dokumentatsioon on masintõlge ingliskeelsest materjalist._
 
 
+## Funktsioonid
+
+Siin on täielik loend funktsioonidest, mis on teostatud ja kasutusele võetud.
+
+**Tööriistad**
+- `search_acts`: Eesti õigusaktide täistekstiotsing.
+- `get_act`: üksiku akti täistekst ja metaandmed, XML teisendatud loetavaks lihttekstiks.
+- `get_act_metadata`: üksiku akti ainult päis, odavaks kinnitamiseks.
+
+**Otsing**
+- Otsing pealkirjast, tekstist või mõlemast (`inTitle`, `inText`).
+- Kaks otsisõna, ühendatud operaatoriga `AND` või `OR`.
+- Eesti morfoloogilise otsingu lüliti (`morph`).
+- Staatuse filter nelja väärtusega: `KEHTIVAD_KEHTETUTETA` (kehtivad, vaikimisi), `JOUSTUVAD`, `KEHTETUD`, `KOIK_OTSITAVAD`.
+- Sortimine kehtivuse alguskuupäeva järgi, uuemad või vanemad enne (`oldestFirst`).
+- Lehekülgedeks jaotamine, 30 tulemust lehel, koos `hasMore` lipuga.
+- Staatuse jaotuse loendurid (kehtivad, kehtetud, jõustuvad).
+- Sobitatud tekstilõigud koos loetava struktuurse asukohaga, näiteks "ptk 22, § 240 lg 2 p 5".
+
+**Aktid**
+- Akti täistekst tõmmatakse otse XML-ina ja teisendatakse loetavaks lihttekstiks.
+- Ainult päise pärimine, mis jätab välja suure tekstikeha.
+- Puuduvad aktid tagastavad `{ found: false }`, mitte vea.
+
+**Väljund**
+- Iga tööriist tagastab nii struktureeritud JSON-andmed kui ka lühikese tekstilise kokkuvõtte.
+
+**Käituskeskkond ja protokoll**
+- Olekuvaba Cloudflare Worker tasuta tasandil, ilma Durable Objectiteta.
+- Ise majutatav Dockeri või Podmaniga.
+- MCP striimitava HTTP kaudu, protokolli versioon 2025-06-18.
+- JSON-RPC üksik- ja hulgipäringud, koos CORS-iga.
+- Vastuste vahemällu salvestamine 10-minutilise TTL-iga (Workers Cache API).
+- Ainult lugemiseks, ilma autentimiseta, ilma kasutajaandmeteta.
+- Tööriistade kirjeldused on inglise ja eesti keeles, seega päringud mõlemas keeles töötavad.
+
+**Piirangud**
+- Ainult eestikeelne tekst; ingliskeelseid tõlkeid versioonis 1 ei ole.
+
 ## Sisukord
 
+- [Funktsioonid](#funktsioonid)
 - [Tööriistad](#tööriistad)
   - [search_acts](#search_acts)
   - [get_act](#get_act)
