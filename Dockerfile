@@ -1,6 +1,6 @@
 # Run the MCP server locally with workerd (via wrangler dev). No Cloudflare
 # account needed. This is the self-host path.
-FROM node:22-slim
+FROM node:26-slim
 
 WORKDIR /app
 
