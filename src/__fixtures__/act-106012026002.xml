@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?><oigusakt xmlns="Juurakt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="1cee107b-00ba-44b4-8883-da29dfd5ac85" xsi:schemaLocation="muutmismaarus_1_10.02.2010 http://xmlr.eesti.ee/xml/schemas/oigusakt/muutmismaarus_1_10.02.2010.xsd">
+	<metaandmed>
+		<valjaandja>Kultuuriminister</valjaandja>
+		<dokumentLiik>määrus</dokumentLiik>
+		<tekstiliik>algtekst</tekstiliik>
+		<dokumentEtapp>avaldamine</dokumentEtapp>
+		<dokumentStaatus>avaldatud</dokumentStaatus>
+		<vastuvoetud>
+			<aktikuupaev>2025-12-22</aktikuupaev>
+			<aktiNr>14</aktiNr>
+		</vastuvoetud>
+		<avaldamismarge><RTosa>RT I</RTosa><avaldamineKuupaev>2026-01-06</avaldamineKuupaev><RTaasta>2026</RTaasta><RTartikkel>2</RTartikkel><aktViide>106012026002</aktViide></avaldamismarge><kehtivus><kehtivuseAlgus>2026-01-09+02:00</kehtivuseAlgus></kehtivus><versioon>
+			<dokumentVersioon>1</dokumentVersioon>
+			<dokumentVersioonKuupaev>2025-12-23</dokumentVersioonKuupaev>
+		</versioon>
+		<skeemiNimi>muutmismaarus_1_10.02.2010.xsd</skeemiNimi>
+		<globaalID>106012026002</globaalID>
+		<metaandmedVersioon>5</metaandmedVersioon>
+		<metaandmedVersioonKuupaev>2026-01-05</metaandmedVersioonKuupaev>
+		<metaandmedVersioonPohjustaja>Maret Mauer</metaandmedVersioonPohjustaja>
+		<eesmark>Muutmismääruse raamskeem XML struktuuri koostamiseks</eesmark>
+	</metaandmed>
+	<aktinimi id="70d20be0-94df-4db1-a9b2-632a763ab65d">
+		<nimi id="3913ed6b-9f2d-4d30-a278-ba4f786d2e19">
+			<pealkiri id="a49a524c-f721-48a7-ba21-903bc8f730df">Kultuuriministri määruste kehtetuks tunnistamine</pealkiri>
+		</nimi>
+	</aktinimi>
+	<sisu id="64238475-24b8-4afe-85c8-82d77e3cb3b6">
+		<preambul id="4aa964fc-7094-44a3-87ae-34f86b4370dd">
+			<tavatekst id="13e87b3d-e09d-4556-a1f4-223ef6d834ac">Kehtiva õiguse korrastamise eesmärgil ning lähtudes haldusmenetluse seaduse § 92 lõike 2 kolmandast lausest ja asjaolust, et määrused on ära rakendatud, tunnistada kehtetuks alltoodud kultuuriministri määrused:</tavatekst>
+		</preambul>
+		<sisuTekst id="6054394b-5613-4612-9398-38e99d07a642">
+			<HTMLKonteiner id="1bc1b40d-13cc-49f5-ba9e-b7c7b2ebc906"><![CDATA[<p><b>1)</b> 26. jaanuari 2007. a määrus nr 2 &bdquo;Viljandi Draamateater &bdquo;Ugala&ldquo; tegevuse lõpetamine&ldquo; (RTL 2007, 11, 172);</p>
+<p><b>2)</b> 26. veebruari 2008. a määrus nr 19 &bdquo;Jõulumäe Tervisekeskuse tegevuse lõpetamine&ldquo; (RTL 2008, 19, 275);</p>
+<p><b>3)</b> 3. veebruari 2012. a määrus nr 1 &bdquo;Pärnu Teatri &bdquo;Endla&rdquo; tegevuse lõpetamine&ldquo; (RT I, 07.02.2012, 5);</p>
+<p><b>4)</b> 25. oktoobri 2012. a määrus nr 7 &bdquo;Teatri &bdquo;Vanalinnastuudio&rdquo; tegevuse lõpetamine&ldquo; (RT I, 01.11.2012, 12);</p>
+<p><b>5)</b> 25. oktoobri 2012. a määrus nr 8 &bdquo;Eesti Riikliku Nukuteatri tegevuse lõpetamine&ldquo; (RT I, 01.11.2012, 13);</p>
+<p><b>6)</b> 25. oktoobri 2012. a määrus nr 9 &bdquo;Teatri &bdquo;Vanemuine&rdquo; tegevuse lõpetamine&ldquo; (RT I, 01.11.2012, 14);</p>
+<p><b>7)</b> 16. novembri 2012. a määrus nr 10 &bdquo;Iisaku Muuseumi tegevuse lõpetamine&ldquo; (RT I, 23.11.2012, 3);</p>
+<p><b>8)</b> 16. novembri 2012. a määrus nr 11 &bdquo;Tartumaa Muuseumi tegevuse lõpetamine&ldquo; (RT I, 23.11.2012, 4);</p>
+<p><b>9)</b> 26. märtsi 2013. a määrus nr 1 &bdquo;Järvamaa Muuseumi tegevuse lõpetamine&ldquo; (RT I, 13.07.2013, 2);</p>
+<p><b>10)</b> 22. aprilli 2013 määrus nr 2 &bdquo;Läänemaa Muuseumi tegevuse lõpetamine&ldquo; (RT I, 13.07.2013, 3);</p>
+<p><b>11)</b> 7. juuni 2013. a määrus nr 3 &bdquo;Mahtra Talurahvamuuseumi tegevuse lõpetamine&ldquo; (RT I, 13.07.2013, 4);</p>
+<p><b>12)</b> 11. detsembri 2013. a määrus nr 38 &bdquo;Eesti Tervishoiu Muuseumi tegevuse lõpetamine&ldquo; (RT I, 13.12.2013, 32);</p>
+<p><b>13)</b> 11. detsembri 2013. a määrus nr 39 &bdquo;Ennistuskoja &bdquo;Kanut&rdquo; tegevuse lõpetamine&ldquo; (RT I, 13.12.2013, 33);</p>
+<p><b>14)</b> 11. detsembri 2013. a määrus nr 40 &bdquo;Eesti Vabaõhumuuseumi tegevuse lõpetamine&ldquo; (RT I, 13.12.2013, 34);</p>
+<p><b>15)</b> 22. jaanuari 2014 määruse nr 1 &bdquo;Eesti Kontserdi tegevuse lõpetamine&ldquo; (RT I, 28.01.2014, 1);</p>
+<p><b>16)</b> 27. jaanuari 2014. a määruse nr 2 &bdquo;Eesti Riikliku Sümfooniaorkestri tegevuse lõpetamine&ldquo; (RT I, 29.01.2014, 2);</p>
+<p><b>17)</b> 12. septembri 2014. a määrus nr 3 &bdquo;Hiiumaa Muuseumi tegevuse lõpetamine&ldquo; (RT I, 17.09.2014, 3);</p>
+<p><b>18)</b> 30. septembri 2014. a määrus nr 5 &bdquo;Dr. Fr. R. Kreutzwaldi Memoriaalmuuseumi tegevuse lõpetamine&ldquo; (RT I, 03.10.2014, 2);</p>
+<p><b>19)</b> 30. septembri 2014. a määrus nr 6 &bdquo;Põlva Talurahvamuuseumi tegevuse lõpetamine&ldquo; (RT I, 03.10.2014, 3);</p>
+<p><b>20)</b> 22. oktoobri 2014. a määrus nr 8 &bdquo;Valga Muuseumi tegevuse lõpetamine&ldquo; (RT I, 24.10.2014, 1);</p>
+<p><b>21)</b> 15. detsembri 2014. a määrus nr 11 &bdquo;Eesti Filharmoonia Kammerkoori tegevuse lõpetamine&ldquo; (RT I, 19.12.2014, 5);</p>
+<p><b>22)</b> 29. juuni 2015. a määrus nr 3 &bdquo;Pärnu Muuseumi tegevuse lõpetamine&ldquo; (RT I, 03.07.2015, 18);</p>
+<p><b>23)</b> 19. mai 2016. a määrus nr 2 &bdquo;Eesti Spordimuuseum tegevuse lõpetamine&ldquo; (RT I, 27.05.2016, 2);</p>
+<p><b>24)</b> 22. juuni 2016. a määrus nr 3 &bdquo;Eesti Kunstimuuseumi tegevuse lõpetamine&ldquo; (RT I, 28.06.2016, 25);</p>
+<p><b>25)</b> 17. veebruari 2017. a määrus nr 1 &bdquo;Eesti Meremuuseum tegevuse lõpetamine&ldquo; (RT I, 22.02.2017, 22);</p>
+<p><b>26)</b> 31. märtsi 2017. a määrus nr 3 &bdquo;Harjumaa muuseumi tegevuse lõpetamine&ldquo; (RT I, 04.04.2017, 13);</p>
+<p><b>27)</b> 21. augusti 2017. a määrus nr 4 &bdquo;Saaremaa Muuseumi tegevuse lõpetamine&ldquo; (RT I, 25.08.2017, 7);</p>
+<p><b>28)</b> 17. jaanuari 2019. a määrus nr 1 &bdquo;Eesti Ajaloomuuseumi tegevuse lõpetamine&ldquo; (RT I, 18.01.2019, 19);</p>
+<p><b>29)</b> 17. jaanuari 2019. a määrus nr 2 &bdquo;Eesti Teatri- ja Muusikamuuseumi tegevuse lõpetamine&ldquo; (RT I, 18.01.2019, 20);</p>
+<p><b>30)</b> 13. märtsi 2019. a määrus nr 8  &bdquo;Rannarootsi Muuseumi tegevuse lõpetamine&ldquo; (RT I, 15.03.2019, 8);</p>
+<p><b>31)</b> 30. aprilli 2020. a määrus nr 7 &bdquo;COVID-19 haigust põhjustava koroonaviiruse levikuga seotud kriisi leevendamiseks ette nähtud toetusmeede laulu- ja tantsupeo liikumises osalevatele kollektiividele&ldquo; (RT I, 15.05.2020, 13);</p>
+<p><b>32)</b> 23. septembri 2020. a määrus nr 24 &bdquo;COVID-19 haigust põhjustava koroonaviiruse levikuga seotud kriisi leevendamiseks ette nähtud toetusmeede rahvakultuuri kollektiividele&ldquo; (RT I, 24.09.2020, 5);</p>
+<p><b>33)</b> 25. jaanuari 2021. a määrus nr 7 &bdquo;COVID-19 haigust põhjustava koroonaviiruse levikuga seotud kriisi leevendamiseks ette nähtud toetusmeede rahvakultuuri alase huvitegevusega tegelevatele harrastuskollektiividele juhendaja tööjõukulude katmiseks&ldquo; (RT I, 26.01.2021, 14);</p>
+<p><b>34)</b> 30. septembri 2022. a määrus nr 12 &bdquo;Eesti Hoiuraamatukogu tegevuse lõpetamine&ldquo; (RT I, 04.10.2022, 4);</p>
+<p><b>35)</b> 22. detsembri 2023. a määrus nr 28 &bdquo;Tartu Kunstimuuseumi tegevuse lõpetamine&ldquo; (RT I, 02.02.2024, 9);</p>
+<p><b>36)</b> 7. märtsi 2024. a määrus nr 9 &bdquo;Eesti Tarbekunsti- ja Disainimuuseumi tegevuse lõpetamine&ldquo; (RT I, 12.03.2024, 11);</p>
+<p><b>37)</b> 7. märtsi 2024. a määrus nr 10 &bdquo;Eesti Arhitektuurimuuseumi tegevuse lõpetamine&ldquo; (RT I, 10.05.2024, 27);</p>
+<p><b>38)</b> 12. veebruari 2025. a määrus nr 2 &bdquo;Viljandi muuseumi tegevuse lõpetamine&ldquo; (RT I, 13.02.2025, 10).</p>]]></HTMLKonteiner>
+		</sisuTekst>
+	</sisu>
+	<allkiri id="f36922d1-50b6-4a15-9388-41262bc9a215">
+		<allkiriKoht id="92d32b97-5d27-455d-b165-5988eb7bfc1e"/>
+		<allkirjastaja id="e0ebc9fb-6385-4e01-ae48-54cf67c81898">
+			<ametinimetus id="f8376254-c9de-45ef-a393-17fe477c4451">Minister</ametinimetus>
+			<eesnimi id="3342d80c-72b6-40ad-bfa9-e7f60f9cdbc2">Heidy</eesnimi>
+			<perekonnanimi id="70b584a3-afa3-4ad8-b1d2-d925607e074d">Purga</perekonnanimi>
+		</allkirjastaja>
+	</allkiri>
+	<allkiri id="c53fd3a5-33d5-4e17-aab3-ce7557f810f9">
+		<allkiriKoht id="b7f78228-71ef-48d0-a158-468d12cf2468"/>
+		<allkirjastaja id="d6f70809-b437-40bf-b7de-f95c702c4d0c">
+			<ametinimetus id="057f73d8-8ca3-46b4-aff0-8dba50c440a6">Kantsler</ametinimetus>
+			<eesnimi id="810be058-bc28-4548-9c00-1d224e1ab36a">Merilin</eesnimi>
+			<perekonnanimi id="f28a2a5e-a3cd-4d3c-bb6c-01576c4f949c">Piipuu</perekonnanimi>
+		</allkirjastaja>
+	</allkiri>
+</oigusakt>

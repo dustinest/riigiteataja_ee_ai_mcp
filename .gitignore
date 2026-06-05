@@ -1,0 +1,10 @@
+docs
+node_modules
+.wrangler
+.claude-context.md
+.DS_Store
+dist
+*.local
+*.iml
+.idea
+.myollamaenhancer

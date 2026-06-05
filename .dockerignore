@@ -1,0 +1,8 @@
+node_modules
+.wrangler
+dist
+.git
+.idea
+docs
+*.local
+.DS_Store
